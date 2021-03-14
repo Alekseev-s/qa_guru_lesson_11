@@ -3,10 +3,10 @@ package tests;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 
+import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static config.ConfigHelper.isVideo;
 import static helpers.AttachmentsHelper.*;
 import static helpers.DriverHelper.configureDriver;
-import static com.codeborne.selenide.Selenide.closeWebDriver;
 
 public class TestBase {
     @BeforeAll

@@ -14,7 +14,7 @@ public class DriverHelper {
 
         Configuration.browserSize = "1920x1080";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.baseUrl = "https://www.sodislab.com/ru/";
+        Configuration.baseUrl = "https://arenadata.tech/";
 
         if (isRemoteDriver()) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
