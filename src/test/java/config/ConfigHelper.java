@@ -14,7 +14,7 @@ public class ConfigHelper {
     }
 
     public static boolean isRemoteDriver() {
-        return System.getProperty("web.remote.driver") != null;
+        return getRemoteDriver() != null;
     }
 
     public static String getVideoStorage() {
