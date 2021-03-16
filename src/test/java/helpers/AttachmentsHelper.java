@@ -34,8 +34,8 @@ public class AttachmentsHelper {
         return String.join("\n", Selenide.getWebDriverLogs(BROWSER));
     }
 
-    public static String getSessionId() {
-        return ((RemoteWebDriver) getWebDriver()).getSessionId().toString();
+    public static String getSessionId(){
+        return ((RemoteWebDriver) getWebDriver()).getSessionId().toString().replace("selenoid","");
     }
 
     @Attachment(value = "Video", type = "text/html", fileExtension = ".html")

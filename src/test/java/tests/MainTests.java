@@ -113,7 +113,7 @@ public class MainTests extends TestBase {
             $(".job-wrap").$(withText("QA Lead")).click();
         });
         step("Check vacancy is opened", () -> {
-            $("h1").shouldHave(text("QA Lead"));
+            $("h1").shouldHave(text("QA qLead"));
         });
     }
 
@@ -137,7 +137,7 @@ public class MainTests extends TestBase {
             switchTo().window(1);
             $("#adqm")
                     .$("p")
-                    .shouldHave(text("Arenadata QuickMarts"));
+                    .shouldHave(text("Arenadata QuickMartsq"));
         });
     }
 
@@ -166,7 +166,7 @@ public class MainTests extends TestBase {
         step("Check error message should not be visible", () -> {
             $("#main-feedback-form").$("[name=\"EMAIL\"]").shouldHave(attribute("aria-invalid", "false"));
             $("#main-feedback-form").$("[name=\"PHONE\"]").shouldHave(attribute("aria-invalid", "false"));
-            $(".error-message").shouldNotBe(visible);
+            $(".error-message").shouldBe(visible);
         });
     }
 
