@@ -38,4 +38,4 @@
 
 **Уведомление в telegram о результатах прохождения тестов**
 
-![](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/tg.png)
+![](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/tgb.png)
