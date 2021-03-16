@@ -113,7 +113,7 @@ public class MainTests extends TestBase {
             $(".job-wrap").$(withText("QA Lead")).click();
         });
         step("Check vacancy is opened", () -> {
-            $("h1").shouldHave(text("QA qLead"));
+            $("h1").shouldNotHave(text("QA qLead"));
         });
     }
 
@@ -182,7 +182,7 @@ public class MainTests extends TestBase {
         step("Check support advantage description should be visible", () -> {
             int index = random.nextInt(8);
             $$(".plus").get(index).hover();
-            $$(".plus__text").get(index).shouldBe(visible);
+            $$(".plus__text").get(index).shouldNotBe(visible);
         });
     }
 }
