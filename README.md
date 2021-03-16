@@ -19,4 +19,4 @@
 </ul>
 <h2>Пример используемых технологий:</h2>
 Запуск тестов в Jenkins
-![alt text](./src/test/screenshots/jenkins.png)
+![alt text](src/test/resources/screenshots/jenkins.png)
