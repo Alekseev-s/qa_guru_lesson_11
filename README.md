@@ -19,5 +19,6 @@
 </ul>
 <h2>Пример используемых технологий:</h2>
 Запуск тестов в Jenkins
-![alt text](src/test/resources/screenshots/jenkins.png)
-!(https://github.com/Alekseev-s/qa_guru_lesson_11/raw/master/src/test/resources/screenshots/jenkins.png)
+![text](https://github.com/Alekseev-s/qa_guru_lesson_11/raw/master/src/test/resources/screenshots/jenkins.png)
+![text](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/jenkins.png)
+
