@@ -20,5 +20,26 @@
 <h2>Пример используемых технологий:</h2>
 Запуск тестов в Jenkins
 
-![text](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/jenkins.png)
+![](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/jenkins.png)
 
+
+Построение Allure report
+
+![](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/allure.png)
+
+
+Для каждого теста добавлены вложения (last screenshot, page source, console log, video)
+
+![](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/attachments.png)
+
+
+
+Выполнение отдельного теста в Selenoid
+
+![](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/Selenoid.gif)
+
+
+
+Уведомление в telegram о результатах прохождения тестов
+
+![](https://raw.githubusercontent.com/Alekseev-s/qa_guru_lesson_11/master/src/test/resources/screenshots/tg.png)
