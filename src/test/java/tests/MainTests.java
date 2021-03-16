@@ -92,7 +92,7 @@ public class MainTests extends TestBase {
             $("[name=\"search\"]").setValue("Релиз").pressEnter();
         });
         step("Check news was found", () -> {
-            $(".post").shouldNotHave(text("Релиз"));
+            $(".post").shouldHave(text("Релиз"));
         });
     }
 
@@ -113,7 +113,7 @@ public class MainTests extends TestBase {
             $(".job-wrap").$(withText("QA Lead")).click();
         });
         step("Check vacancy is opened", () -> {
-            $("h1").shouldHave(text("QA qLead"));
+            $("h1").shouldHave(text("QA Lead"));
         });
     }
 
@@ -137,10 +137,11 @@ public class MainTests extends TestBase {
             switchTo().window(1);
             $("#adqm")
                     .$("p")
-                    .shouldHave(text("Arenadata QuickMartsq"));
+                    .shouldHave(text("Arenadata QuickMarts"));
         });
     }
 
+    /*Сломан*/
     @Test
     @DisplayName("Check email and phone number fields validation")
     void feedbackFormValidationTest() {
@@ -170,6 +171,7 @@ public class MainTests extends TestBase {
         });
     }
 
+    /*Сломан*/
     @Test
     @DisplayName("Support advantage description should appear when hover")
     void supportAdvantagesTest() {
