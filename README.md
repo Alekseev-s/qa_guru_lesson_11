@@ -10,3 +10,13 @@
     <li>Integration with telegram</li>
 </ul>
 <h2>Запуск тестов:</h2>
+Запуск тестов можно выполнять как локально, так и в Jenkins.
+При запуске используются параметры (опционально):
+<ul>
+    <li>-Dbrowser=</li>
+    <li>-Dvideo.storage=</li>
+    <li>-Dweb.remote.driver=</li>
+</ul>
+<h2>Пример используемых технологий:</h2>
+Запуск тестов в Jenkins
+
