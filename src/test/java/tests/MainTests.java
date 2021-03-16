@@ -92,7 +92,7 @@ public class MainTests extends TestBase {
             $("[name=\"search\"]").setValue("Релиз").pressEnter();
         });
         step("Check news was found", () -> {
-            $(".post").shouldHave(text("Релиз"));
+            $(".post").shouldNotHave(text("Релиз"));
         });
     }
 
@@ -113,7 +113,7 @@ public class MainTests extends TestBase {
             $(".job-wrap").$(withText("QA Lead")).click();
         });
         step("Check vacancy is opened", () -> {
-            $("h1").shouldNotHave(text("QA qLead"));
+            $("h1").shouldHave(text("QA qLead"));
         });
     }
 
